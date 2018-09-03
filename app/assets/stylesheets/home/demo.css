@@ -1,0 +1,19 @@
+/* demo only CSS */
+
+.bg-image1 {
+    background-image: url('/assets/store1.jpg');
+}
+.bg-image2 {
+    background-image: url('/assets/memorial.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-fog {
+    background-image: url('/assets/bg_fog.jpg');
+}
+.bg-image-water {
+    background-image: url('/assets/bg_water.jpg');
+}
+.bg-image-jungle {
+    background-image: url('/assets/main.jpg');
+}
