@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "peace"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:zxsxph/peace.git"
 
 set :deploy_to, '/home/ubuntu/peace'
 
@@ -42,3 +42,9 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bund
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+
+set :ssh_options, {
+  keys: %w(/Users/zoseph/Documents/zxsxph.pem),
+  forward_agent: false,
+  user: 'ubuntu'
+}
