@@ -12,4 +12,10 @@ class HomeController < ApplicationController
   def exa
 
   end
+  def aus
+
+  end
+  def who
+
+  end
 end
